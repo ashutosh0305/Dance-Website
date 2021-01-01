@@ -1,0 +1,21 @@
+//- layout.pug
+html
+  head
+    title Bisht's Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar
+         ul
+            div#logo
+                img(src="/static/images/katha.png")
+                | BDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact us]     
+
+    block content
+    footer#footer
+        | Copyright © 2020 BishtDanceAcademy.com |All rights reserved    

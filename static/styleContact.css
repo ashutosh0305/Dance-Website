@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+h1{
+    text-align:center;
+    margin:12px 0;
+}
+.container{
+    min-height:80vh;
+    margin:13px 0;
+}
+
+.container h1{
+    font-family: 'Acme', sans-serif;
+    font-size:34px;
+    
+}
+.myForm{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.myInput{
+    font-size:16px;
+    width:40%;
+    padding:9px;
+    margin:8px;
+    border:2px solid #9d8e8e;
+    border-radius:12px;
+    outline:none;
+}
+
+.btn{
+    padding:10px 14px;
+    font-size:18px;
+    border:2px solid #9d8e8e;
+    border-radius:20px;
+    color:  white;
+    background:  black;
+    cursor:pointer;
+    outline:none;
+    margin:23px;
+}

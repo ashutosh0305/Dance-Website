@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+#logo{
+    display:flex;
+    color:white;
+    align-items:center;
+    margin:0 12px;
+    font-size:28px;
+    margin-right:50px;
+    
+}
+#logo img{
+    height:42px;
+    filter:invert(1);
+}
+#navbar{
+    background-color:black;
+    padding:13px 14px;
+    font-family: 'Rancho', cursive;
+    
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction:row;
+    /* justify-content:center; */
+    align-items:center;
+}
+
+
+#navbar li{
+    list-style:none;
+}
+#navbar li a{
+    color:white;
+    text-decoration:none;
+    font-size:1.8rem;
+    padding:30px 40px;
+}
+
+#navbar li a:hover{
+    color:goldenrod;
+    
+}
+
+#introSection{
+    padding-bottom:40px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Rancho', cursive;
+    background: center/cover no-repeat url("/static/bgg.jpg");
+    height:400px;
+    background-color:red;
+    font-size:4rem;
+}
+#introSection div.small{
+ font-size:2.8rem;
+ padding:1px;
+
+}
+
+#missionSection{
+    height:270px;
+    border-block-color:black;
+    background-color:rgb(238, 235, 232); 
+    
+    width:100%;  
+}
+#missionSection h2{
+    text-align:center;
+    color:rgb(36, 12, 12);
+    font-family: 'Rancho', cursive;
+    font-size:2.5rem;
+    padding-top:0px;
+    margin:auto;
+  }
+
+.card{
+    
+    border: 2px solid black;
+    border-radius:10px;
+    width:30%;
+    margin:1px 20px;
+    height:209px; 
+    display:inline-block
+}
+.card h3{
+    text-align:center ;
+    margin:0 4px;
+    margin-top:8px;
+    font-family:'Rancho', cursive;
+    font-size:23px;
+
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.card-img{
+   height:151px;
+   padding:0px 14px;
+   margin:5px 9px;
+}
+.card-content{
+    padding:0 10px;
+    
+}
+.card-content p{
+    text-align:center;
+    font-size:19px;
+}
+
+.card-img img{
+    height:inherit;
+    
+}
+
+#sponserSection{
+    height:210px;
+    background-color:rgb(62, 65, 51);
+}
+
+
+
+#sponserSection h2{
+  text-align:center;
+  color:white;
+  font-family: 'Rancho', cursive;
+  font-size:2.5rem;
+  padding-top:12px;
+}
+
+#sponsors{
+    height:120px;
+    max-width:1000px;
+    margin:27px auto;
+
+}
+.spImage{
+    height: 94%;
+    margin-top: -27px;
+   
+}
+
+#footer{
+    display:flex;
+    color:white;
+    height:50px;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    /* height:100px; */
+    font-size:20px;
+    font-family: 'Rancho', cursive;
+}

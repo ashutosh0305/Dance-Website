@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Bisht's Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/images/katha.png")
+                | BDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+    section#introSection
+        div Welcome to Bisht's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/girl.png")
+                div.card-content 
+                    p This is the best dance academy of the  universe  
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/boy.png")
+                div.card-content 
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/girl2.png")
+                div.card-content 
+                    p This is the best dance academy of the universe
+
+    section#sponserSection
+        h2 Our Sponsers
+        div#sponsors
+            img(src="/static/images/hp.png",    alt="sponser Image",class="spImage")
+            img(src="/static/images/mslogo.jpg",alt="sponser Image",class="spImage")
+            img(src="/static/images/skype.png", alt="sponser Image",class="spImage")
+            img(src="/static/images/apple.jpg", alt="sponser Image",class="spImage")
+
+    footer#footer
+        | Copyright © 2020 BishtDanceAcademy.com |All rights reserved
+
+    script
+      include ../static/index.js
